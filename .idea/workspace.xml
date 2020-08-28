@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26006c68-9f8d-426b-a06b-6d26caed41e3" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/css/leaflet.draw.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/demo2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/spritesheet-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/spritesheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/spritesheet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/Leaflet.Draw.Event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/Leaflet.Editable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/Leaflet.draw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/leaflet.geometryutil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/leaflet.snap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/demo1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/demo1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leaflet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/leaflet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leaflet.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/leaflet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/问题.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/demo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/demo1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/demo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/demo2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Leaflet.draw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leafletstudy/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +43,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SuperMap_iClient3D_10i(2021)_for_WebGL_25863" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,16 +57,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kxyt\Desktop\leafletdemo\leafletstudy\supermapjs" />
+      <recent name="C:\Users\kxyt\Desktop\leafletdemo\leafletstudy\supermapcss" />
+      <recent name="C:\Users\kxyt\Desktop\leafletdemo\leafletstudy" />
+      <recent name="C:\Users\kxyt\Desktop\leafletdemo\leafletstudy\js" />
+      <recent name="C:\Users\kxyt\Desktop\leafletdemo\leafletstudy\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kxyt\Desktop\leafletdemo\leafletstudy\css" />
       <recent name="C:\Users\kxyt\Desktop\leafletdemo\leafletstudy\js" />
       <recent name="C:\Users\kxyt\Desktop\leafletdemo\leafletstudy\html" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\kxyt\Desktop\leafletdemo\leafletstudy\images" />
-      <recent name="C:\Users\kxyt\Desktop\leafletdemo\leafletstudy\css" />
-      <recent name="C:\Users\kxyt\Desktop\leafletdemo\leafletstudy\js" />
-      <recent name="C:\Users\kxyt\Desktop\leafletdemo\leafletstudy" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -97,6 +86,8 @@
       <workItem from="1598496250771" duration="571000" />
       <workItem from="1598497134580" duration="31000" />
       <workItem from="1598497210192" duration="10469000" />
+      <workItem from="1598518831145" duration="1448000" />
+      <workItem from="1598578134190" duration="10736000" />
     </task>
     <servers />
   </component>
@@ -107,6 +98,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1598599493340">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598599493340" />
     <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1598512427810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -127,5 +122,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598515378557" />
+    <state x="468" y="10" width="600" height="804" key="find.popup" timestamp="1598599010571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="10" width="600" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1598599010571" />
   </component>
 </project>

@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="../css/leaflet.css"/>
     <script src="../js/leaflet.js"></script>
     <script src="../js/leaflet.geometryutil.js"></script>
+    <link rel="stylesheet" href="../css/leaflet.draw.css">
+    <script src="../js/leaflet.draw.js"></script>
 </head>
 <body>
 <button onclick="DrawCircle()" class="kuai">绘制方框</button>
@@ -31,7 +33,7 @@
 </style>
 <script>
     var mymap = L.map('mapid', {
-        editable: true
+        drawControl: true
     }).setView([51.505, -0.09], 13);
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
         maxZoom: 18,
@@ -40,6 +42,24 @@
             'Imagery © <a href="http://mapbox.com">Mapbox</a>',
         id: 'mapbox.streets'
     }).addTo(mymap);
+
+    var drawnItems = new L.FeatureGroup();
+    mymap.addLayer(drawnItems);
+
+
+    // Initialize the draw control and pass it the FeatureGroup of editable layers
+    var drawControl = new L.Control.Draw({
+        edit: {
+            featureGroup: drawnItems
+        }
+    });
+    mymap.addControl(drawControl);
+    mymap.on(L.Draw.Event.CREATED, function (event) {
+        var layer = event.layer;
+
+        drawnItems.addLayer(layer);
+    });
+
     //添加maker弹出框
     var marker = L.marker([51.5, -0.09]).addTo(mymap);
     /*var popup = L.popup()
